@@ -28,7 +28,7 @@
   <div class="navbar">
     <div class="navbar-header">
       <div class="basic-wrapper" style="margin-left: 0%">
-        <div class="navbar-brand"> <a href="/"><img src="#" srcset="style/images/logo.png 1x, style/images/logo@2x.png 2x" class="logo-light" alt="" /><img src="#" srcset="style/images/logo-dark.png 1x, style/images/logo-dark@2x.png 2x" class="logo-dark" alt="" /></a> </div>
+        <div class="navbar-brand"> <a href="/"><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-light" alt="" /><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-dark" alt="" /></a> </div>
         <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a> </div>
       <!-- /.basic-wrapper --> 
     </div>
@@ -60,19 +60,23 @@
     <div class="tp-fullscreen-container revolution">
       <div class="tp-fullscreen">
         <ul>
-          <li data-transition="fade"> <img src="style/images/art/slider-bg4.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <li data-transition="fade"> <img src="style/images/sliderbanner/1.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <!-- <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">We Are Expert In</h1>
             <h1 class="tp-caption large sfr" data-x="30" data-y="348" data-speed="900" data-start="800" data-easing="Sine.easeOut">Architectural.</h1> -->
             <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
           </li>
-            <li data-transition="fade"> <img src="style/images/art/slider-bg2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">built for creatives to showcase</div>
             <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">their portfolio beautifully</div>
           </li>
-          <li data-transition="fade"> <img src="style/images/art/slider-bg1.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
-              master planning design</div>
+            master planning design</div>
+          </li>
+          <li data-transition="fade"> <img src="style/images/sliderbanner/4.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+            <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">built for creatives to showcase</div>
+            <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">their portfolio beautifully</div>
           </li>
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>
@@ -86,7 +90,7 @@
   <section id="about">
     <div class="inverse-wrapper">
       <div class="container inner">
-        <h3 class="section-title text-center">About Us</h3>
+        <h3 class="section-title text-center">About Us <img src="style/images/element.png" style="margin-bottom: 2%"></h3>
         <br><br>
         <div class="divide20"></div>
         <div class="row">
@@ -97,7 +101,7 @@
             <p style="font-size: 18px">To-date, we have office in Singapore, Beijing, Shanghai, Suzhou, Cebu, Bangkok, Bandung, and Yangon. We are now having a combined team of 100 people which consist of talented and experienced planners, architects, designers and engineers.</p>
           </div>
           <div class="col-sm-6">
-            <img src="style/images/team.jpg" alt="" />
+            <img src="style/images/staff/team.png" alt="" />
           </div>
         </div>
       </div>
@@ -114,7 +118,7 @@
       <!-- /.thin -->
       <div class="row">
         <div class="col-sm-12">
-          <img src="style/images/art/bs1.jpg" alt="" />
+          <img src="style/images/chart.png" alt="" />
         </div>
         <!-- /column -->
       </div>
@@ -133,7 +137,7 @@
       <!-- /.thin -->
         <div class="light-wrapper">
           <div class="col-sm-5 text-center">
-            <figure><img src="style/images/art/t1.jpg" alt="" /></figure>
+            <figure><img src="style/images/staff/LSS_1.png" alt="" /></figure>
           </div>
           <div class="col-sm-1">
           </div>
@@ -150,59 +154,59 @@
     <hr style="padding-top: 0px;margin-bottom: 0px;border-bottom: 2px solid rgba(0,0,0,1);width: 65%">
     <div class="container inner">
       <div class="row grid-view">
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t1.jpg" alt="" /></figure>
+        <div class="col-sm-4 text-center">
+          <figure><img src="style/images/staff/Jack.png" alt="" /></figure>
           <h4 class="post-title">Jack Chen</h4>
           <div class="meta">Art Director</div>
         </div>
         <!-- /column -->
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t2.jpg" alt="" /></figure>
-          <h4 class="post-title">Eric Xu</h4>
-          <div class="meta">Photographer</div>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t3.jpg" alt="" /></figure>
-          <h4 class="post-title">Qelvin Wang</h4>
-          <div class="meta">Photographer & Editor</div>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t4.jpg" alt="" /></figure>
-          <h4 class="post-title">Yao Gan</h4>
-          <div class="meta">Videographer</div>
-        </div>
-        <!-- /column -->
-      </div>
-      <br><br>
-      <div class="row grid-view">
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t1.jpg" alt="" /></figure>
-          <h4 class="post-title">Ludy Huang</h4>
-          <div class="meta">Art Director</div>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t2.jpg" alt="" /></figure>
+        <div class="col-sm-4 text-center">
+          <figure><img src="style/images/staff/mimi.png" alt="" /></figure>
           <h4 class="post-title">Ma Mi Mi Stree</h4>
           <div class="meta">Photographer</div>
         </div>
         <!-- /column -->
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t3.jpg" alt="" /></figure>
-          <h4 class="post-title">Mark Mendoza</h4>
+        <div class="col-sm-4 text-center">
+          <figure><img src="style/images/staff/kelvin.png" alt="" /></figure>
+          <h4 class="post-title">Kelvin Wang</h4>
           <div class="meta">Photographer & Editor</div>
         </div>
         <!-- /column -->
-        <div class="col-sm-3 text-center">
-          <figure><img src="style/images/art/t4.jpg" alt="" /></figure>
+        <div class="col-sm-2 text-center">
+        </div>
+        <div class="col-sm-4 text-center">
+          <figure><img src="style/images/staff/antonius.png" alt="" /></figure>
           <h4 class="post-title">Antonius</h4>
           <div class="meta">Videographer</div>
         </div>
-        <!-- /column -->  
+        <!-- /column --> 
+        <div class="col-sm-4 text-center">
+          <figure><img src="style/images/staff/Darren.png" alt="" /></figure>
+          <h4 class="post-title">Darren Neil Coyoca</h4>
+          <div class="meta">Photographer</div>
+        </div>
+        <!-- /column -->
+        <div class="col-sm-2 text-center">
+        </div>
       </div>
       <!--/.row --> 
+    </div>
+    <div class="dark-wrapper">
+      <div class="container inner">
+        <div class="thin">
+          <h3 class="section-title text-left">Awards</h3>
+          <br><br>
+        </div>
+        <!-- /.thin -->
+        <div class="row">
+          <div class="col-sm-12">
+            <figure><img src="style/images/awards.jpg" alt=""></figure>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row --> 
+      </div>
+      <!-- /.container --> 
     </div>
   </div>
   <!-- /.dark-wrapper -->
@@ -212,21 +216,21 @@
     <div class="inverse-wrapper">
       <div class="container inner">
         <div class="thin">
-          <h3 class="section-title text-center">Projects</h3>
+          <h3 class="section-title text-center">Projects <img src="style/images/element.png" style="margin-bottom: 2%"></h3>
         </div>
         <br><br>
         <!-- /.thin -->
         <div class="cbp-panel">
-          <div id="js-filters-mosaic" class="cbp-filter-container text-center">
+          <!-- <div id="js-filters-mosaic" class="cbp-filter-container text-center">
             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item" style="color: white"> All </div>
             <div data-filter=".residential" class="cbp-filter-item" style="color: white"> Residential </div>
             <div data-filter=".hospitality" class="cbp-filter-item" style="color: white"> Hospitality </div>
             <div data-filter=".institutional" class="cbp-filter-item" style="color: white"> Institutional </div>
             <div data-filter=".industrial" class="cbp-filter-item" style="color: white"> Industrial </div>
-          </div>
+          </div> -->
           <div id="js-grid-mosaic" class="cbp">
             <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/minresidences/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
@@ -239,11 +243,11 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/nanchanguniversityhospital/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Pan Pacific Hotel, Singapore</div>
+                    <div class="cbp-l-caption-title">Nanjing University Hospital, China</div>
                   </div>
                 </div>
               </div>
@@ -252,7 +256,7 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/baihotel/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
@@ -265,7 +269,7 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/pbsacademy/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
@@ -278,7 +282,7 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/lot8/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
@@ -291,7 +295,7 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item print institutional"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p6.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/mtower/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
@@ -305,7 +309,7 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item industrial"> <a class="cbp-caption" href="portfolio-post2.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/ycs/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
@@ -318,11 +322,11 @@
             <!--/.cbp-item -->
             
             <div class="cbp-item print industrial"> <a class="cbp-caption" href="portfolio-post4.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p8.jpg" alt="" /> </div>
+              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/thakinmyapark/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Defu Industrial City, Singapore</div>
+                    <div class="cbp-l-caption-title">Thakin Mya Park, Myanmar</div>
                   </div>
                 </div>
               </div>
@@ -336,7 +340,7 @@
         <!--/.cbp-panel -->
         <br><br>
         <div class="row">
-          <div id="js-grid-mosaic-more" class="cbp-l-loadMore-text"> <a href="ajax/loadmore2.html" class="cbp-l-loadMorelink btn" rel="nofollow"> <span class="cbp-l-loadMore-defaultText">Load More</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">No More Works</span> </a> </div>
+          <div id="js-grid-mosaic-more" class="cbp-l-loadMore-text"> <a href="ajax/loadmore2.html" class="cbp-l-loadMorelink btn" rel="nofollow"> <span class="cbp-l-loadMore-defaultText">View All Projects</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">No More Works</span> </a> </div>
         </div>
       </div>
       <!-- /.container --> 
@@ -348,11 +352,11 @@
   <section id="locations">
     <div class="inverse-wrapper">
       <div class="container inner">
-        <h3 class="section-title text-center">Locations</h3><br><br>
+        <h3 class="section-title text-center">Locations <img src="style/images/element.png" style="margin-bottom: 2%"></h3><br><br>
         <div class="divide20"></div>
         <div class="row">
           <div class="col-sm-7">
-            <figure><img src="style/images/art/locations.jpg" alt=""></figure>
+            <figure><img src="style/images/map.png" alt=""></figure>
           </div>
           <div class="col-sm-5">
             <div style="font-size: 18px; border-style: solid; border-color: white; padding-top: 2%; padding-left: 2%">
@@ -410,36 +414,40 @@
   <section id="clients">
     <div class="dark-wrapper">
       <div class="container inner">
-        <h3 class="section-title text-center" style="font-size: 30px">Clients</h3>
-        <div class="divide20"></div><div class="divide20"></div><div class="divide20"></div><div class="divide20"></div><div class="divide20"></div>
+        <h3 class="section-title text-center" style="font-size: 30px">Clients <img src="style/images/element.png" style="margin-bottom: 2%"></h3>
+        <div class="divide20"></div><div class="divide20"></div><div class="divide20"></div>
         <div class="row">
           <div class="col-lg-12">
             <div class="row">
-              <figure><img src="style/images/clients.png" alt=""></figure>
+              <figure><img src="style/images/clients.png"></figure>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="row inner joinus">
+        <div class="col-sm-6" style="color: white;margin-left: 25%">
+          <h2 style="color: white;"><b>Join Us!</b></h2>
+          <div>
+            <p style="margin-bottom: -8px;"><b>a+p group is always seeking ambitious</b></p>
+            <p style="margin-bottom: -8px"><b>and motivated architectural professionals</b></p>
+            <p style="margin-bottom: -8px"><b>to our offices in Singapore, Beĳing,</b></p>
+            <p style="margin-bottom: -8px"><b>Suzhou, Yangon, Bangkok, Cebu, and</b></p>
+            <p style="margin-bottom: -8px"><b>Bandung.</b></p>
+            <br>
+            <p style="margin-bottom: -8px">at a+p group, you will be engaged in good projects with</p>
+            <p style="margin-bottom: -8px">rigorous responsibilities from drafting to final presentation</p>
+            <p style="margin-bottom: -8px">experiences. There will be tough competitions among the other</p>
+            <p style="margin-bottom: -8px">colleagues proposals and competitors form the other companies,</p>
+            <p style="margin-bottom: -8px">which will be a good training opportunity in the real world.</p>
+            <br>
+            <p style="margin-bottom: -8px">Kindly send in your CV and Portfolio under 10 mb to</p>
+            <p style="margin-bottom: -8px">info@ap-grp.com</p>
           </div>
         </div>
       </div>
       <!--/.container --> 
     </div>
     <!--/.light-wrapper -->
-    <div class="dark-wrapper">
-    <div class="container inner">
-      <div class="thin">
-        <h3 class="section-title text-left">Awards</h3>
-        <br><br>
-      </div>
-      <!-- /.thin -->
-      <div class="row">
-        <div class="col-sm-12">
-          <figure><img src="style/images/awards.jpg" alt=""></figure>
-        </div>
-        <!-- /column -->
-      </div>
-      <!-- /.row --> 
-    </div>
-    <!-- /.container --> 
-  </div>
   </section>
   <!--/#clients -->
   
@@ -455,83 +463,54 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="widget">
-            <h3 class="widget-title">Popular Posts</h3>
-            <ul class="post-list">
-              <li>
-                <div class="icon-overlay"> <a href="blog-post.html"><img src="style/images/art/a1.jpg" alt="" /> </a> </div>
-                <div class="meta">
-                  <h5><a href="blog-post.html">Magna Mollis Ultricies</a></h5>
-                  <em><span class="date">3th Oct 2012</span> <span class="comments"><a href="#"><i class="icon-chat-1"></i> 8</a></span></em> </div>
-              </li>
-              <li>
-                <div class="icon-overlay"> <a href="blog-post.html"><img src="style/images/art/a2.jpg" alt="" /> </a> </div>
-                <div class="meta">
-                  <h5><a href="blog-post.html">Ornare Nullam Risus Tellus Elit Fusce Inceptos Etiam</a></h5>
-                  <em><span class="date">28th Sep 2012</span> <span class="comments"><a href="#"><i class="icon-chat-1"></i> 5</a></span></em> </div>
-              </li>
-              <li>
-                <div class="icon-overlay"> <a href="blog-post.html"><img src="style/images/art/a3.jpg" alt="" /> </a> </div>
-                <div class="meta">
-                  <h5><a href="blog-post.html">Euismod Nullam</a></h5>
-                  <em><span class="date">15th Aug 2012</span> <span class="comments"><a href="#"><i class="icon-chat-1"></i> 9</a></span></em> </div>
-              </li>
-            </ul>
-            <!-- /.post-list --> 
+            <h3 class="widget-title"><a href="/"><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-light" alt="" /></a> </h3>
           </div>
           <!-- /.widget --> 
         </div>
         <!-- /column -->
         
         <div class="col-sm-4">
-          <div class="widget">
-            <h4 class="widget-title">Tags</h4>
+        </div>
+        <!-- /column -->
+        
+        <div class="col-sm-4">
+          <div class="col-sm-3">
+            <p>Explore</p>
             <ul class="tag-list">
-              <li><a href="#" class="btn">Web</a></li>
-              <li><a href="#" class="btn">Photography</a></li>
-              <li><a href="#" class="btn">Illustation</a></li>
-              <li><a href="#" class="btn">Fun</a></li>
-              <li><a href="#" class="btn">Blog</a></li>
-              <li><a href="#" class="btn">Commercial</a></li>
-              <li><a href="#" class="btn">Journal</a></li>
-              <li><a href="#" class="btn">Nature</a></li>
-              <li><a href="#" class="btn">Still Life</a></li>
+              <li><a href="#home" title="home">Home</a></li>
+            </ul>
+            <ul class="tag-list">
+              <li><a href="#about" title="about">About</a></li>
+            </ul>
+            <ul class="tag-list">
+              <li><a href="#projects" title="about">Projects</a></li>
+            </ul>
+            <ul class="tag-list">
+              <li><a href="#locations" title="about">Locations</a></li>
+            </ul>
+            <ul class="tag-list">
+              <li><a href="#jobs" title="about">Jobs</a></li>
             </ul>
           </div>
           <!-- /.widget -->
-          
-          <div class="widget">
-            <h4 class="widget-title">Elsewhere</h4>
-            <ul class="social">
-              <li><a href="#"><i class="icon-s-rss"></i></a></li>
-              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-              <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+          <div class="col-sm-5">
+            <p>Join Us</p>
+            <ul class="tag-list">
+              <li><a href="#jobs" title="about">info@ap-grp.com</a></li>
             </ul>
-            <!-- .social --> 
-            
-          </div>
-        </div>
-        <!-- /column -->
-        
-        <div class="col-sm-4">
-          <div class="widget">
-            <h4 class="widget-title">Search</h4>
-            <form class="searchform" method="get">
-              <input type="text" id="s2" name="s" value="Search something" onfocus="this.value=''" onblur="this.value='Search something'">
-              <button type="submit" class="btn btn-default">Find</button>
-            </form>
-          </div>
-          <!-- /.widget -->
-          <div class="widget">
-            <h4 class="widget-title">Get In Touch</h4>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <div class="contact-info"> <i class="icon-location"></i> Moonshine St. 14/05 Light City <br />
-              <i class="icon-phone"></i>+00 (123) 456 78 90 <br />
-              <i class="icon-mail"></i> <a href="first.last@email.com">first.last@email.com</a> </div>
           </div>
           <!-- /.widget --> 
-          
+          <div class="col-sm-4">
+            <p>Follow</p>
+            <div class="social-wrapper">
+              <ul class="social naked" style="margin-right: 15%">
+                <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+                <li><a href="#"><i class="icon-s-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.widget --> 
         </div>
         <!-- /column --> 
         
@@ -542,7 +521,13 @@
     
     <div class="sub-footer">
       <div class="container inner">
-        <p class="text-center">© 2015 Lydia. All rights reserved. Theme by <a href="http://elemisfreebies.com">elemis</a>.</p>
+        <div class="col-sm-4">
+          <p class="text-left"><b>© 2018 a+pgrp. All Rights Reserved.</b></p>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <p class="text-left"><b>Terms of Use &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Privacy Policy</b></p>
+        </div>
       </div>
       <!-- .container --> 
     </div>
@@ -551,175 +536,6 @@
   <!-- /footer -->
   <div class="slide-portfolio-overlay"></div><!-- overlay that appears when slide portfolio content is open -->
 </main>
-<!--/.body-wrapper -->
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-1">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Coffee Time</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp1-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp1-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp1-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp1-4.jpg" alt=""></li>
-        <li><img src="style/images/art/sp1-5.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-2">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Transportation</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp2-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp2-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp2-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp2-4.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-3">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Colorful Objects</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp3-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp3-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp3-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp3-4.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-4">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Green Grass</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp4-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp4-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp4-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp4-4.jpg" alt=""></li>
-        <li><img src="style/images/art/sp4-5.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-5">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Suitcase</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp5-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp5-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp5-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp5-4.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-6">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Tulips</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp6-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp6-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp6-3.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-7">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Workshop</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp7-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp7-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp7-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp7-4.jpg" alt=""></li>
-        <li><img src="style/images/art/sp7-5.jpg" alt=""></li>
-        <li><img src="style/images/art/sp7-6.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-8">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Coffee Cups</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp8-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp8-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp8-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp8-4.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
-<!-- slide-portfolio-item-content -->
-<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-9">
-  <div class="slide-portfolio-item-detail">
-    <div class="inner2">
-      <h2 class="text-center">Holding Green</h2>
-      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <div class="divide25"></div>
-      <ul class="basic-gallery text-center">
-        <li><img src="style/images/art/sp9-1.jpg" alt=""></li>
-        <li><img src="style/images/art/sp9-2.jpg" alt=""></li>
-        <li><img src="style/images/art/sp9-3.jpg" alt=""></li>
-        <li><img src="style/images/art/sp9-4.jpg" alt=""></li>
-        <li><img src="style/images/art/sp9-5.jpg" alt=""></li>
-      </ul>
-    </div>
-    <!-- .inner --> 
-  </div>
-  <!-- slide-portfolio-item-detail --> 
-</div>
 <!-- slide-portfolio-item-content --> 
 <a href="#0" class="slide-portfolio-item-content-close"><i class="budicon-cancel-1"></i></a> <!-- close slide portfolio content --> 
 <script src="style/js/jquery.min.js"></script> 

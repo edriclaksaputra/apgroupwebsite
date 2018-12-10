@@ -298,6 +298,15 @@ h4.post-title {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+.joinus {
+    background-image: url("/style/images/joinus.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .inner2 {
     padding-top: 70px;
     padding-bottom: 70px;
