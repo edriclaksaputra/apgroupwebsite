@@ -15,3 +15,4 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/listprojects', 'ProjectsController@index')->name('listprojects');
