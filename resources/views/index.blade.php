@@ -87,8 +87,13 @@
           <div class="col-sm-6" style="text-align: justify;">
             <p style="color: black; font-size: 24px"><strong>Liew Soong Shoon</strong></p>
             <p style="color: #DAA520; font-size: 18px"><strong>Founder & CEO</strong></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa.</p>
-            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.”</p>
+            <p>Liew Soong Shoon graduated with Honours in Bachelor of Arts (Architecture Studies), Bachelor of Architecture, and Master of Urban Design from National of University Singapore. He was worked at Liwellyn Davies (HK) Architects & Planners in Hong Kong and Conrad & Gargett Architects in Brisbane Australia.</p>
+
+            <p>He decided to go back to Singapore in 1994,  he worked as an architect and planner for OD Architects. He was a principle designer for Yue Hwa Conservation  Building which won URA Heritage awards in 1994.</p>
+
+            <p>In 1997, he established A+P Group where his vision is to provide comprehensive approach consultancy services, which believes in quality and excellence in design and planning. He is a member of some professional council such as Singapore Institute of Architects (SIA), Royal Institute of British Architects (RIBA), Registered at Singapore Board of Architects, and APEC Architects.</p>
+
+            <p>Nowadays, a+p is constantly establishing itself as an energetic and innovative consultancy firm. a+p believes in team and expertise involvement, technological advancement in handling design and planning problems via the critical & analytical process in facing design challenge and potential. a+p seeks to achieve the most effective, innovative, functional and quality design solutions.</p>
           </div>
           <!-- /column -->
         </div>
