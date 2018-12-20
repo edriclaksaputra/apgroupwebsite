@@ -1,4 +1,3 @@
-  
   <footer class="footer inverse-wrapper">
     <div class="container inner">
       <div class="row">
@@ -62,12 +61,17 @@
     
     <div class="sub-footer">
       <div class="container inner">
-        <div class="col-sm-4">
+        <div class="col-sm-4" style="padding-left: 0px">
           <p class="text-left"><b>© 2018 a+pgrp. All Rights Reserved.</b></p>
         </div>
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
-          <p class="text-left"><b>Terms of Use &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Privacy Policy</b></p>
+          <div class="col-sm-6">
+            <p class="text-left"><b>Terms of Use</b></p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-left"><b>Privacy Policy</b></p>
+          </div>
         </div>
       </div>
       <!-- .container --> 

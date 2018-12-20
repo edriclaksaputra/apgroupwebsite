@@ -570,6 +570,10 @@ footer ul.circled li:before {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
 }
+.btn-custom:hover {
+    background: #B59943;
+    border: none;
+}
 .navigation .btn {
     margin-bottom: 0
 }
@@ -707,7 +711,7 @@ footer ul.circled li:before {
     left: 0;
     margin: 0;
     height: 90px;
-    background: rgba(29,29,33,0.5) !important;  
+    background: rgba(29,29,33,0) !important;  
     transition: all 0.3s;
     font-family: 'Montserrat', sans-serif;
 }
@@ -959,7 +963,7 @@ footer ul.circled li:before {
     font-style: normal;
     font-weight: normal;
     speak: none;
-    display: inline-block;
+    display: none;
     text-decoration: inherit;
     text-align: center;
     vertical-align: middle;
@@ -980,7 +984,8 @@ footer ul.circled li:before {
     color: rgba(255,255,255,1);
 }
 .tp-bullets {
-    bottom: 30px !important
+    display: none;
+    bottom: 10px !important
 }
 .tp-bullets.simplebullets.round .bullet {
     margin-left: 5px;
@@ -1024,7 +1029,7 @@ footer ul.circled li:before {
 }
 .tp-bannertimer {
     width: 100%;
-    height: 10px;
+    height: 5px;
     background: url(style/images/timer.png);
     position: absolute;
     z-index: 200;

@@ -6,20 +6,40 @@
           <li data-transition="fade"> <img src="style/images/sliderbanner/1.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <!-- <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">We Are Expert In</h1>
             <h1 class="tp-caption large sfr" data-x="30" data-y="348" data-speed="900" data-start="800" data-easing="Sine.easeOut">Architectural.</h1> -->
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            master planning design</div>
             <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
           </li>
           <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">built for creatives to showcase</div>
-            <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">their portfolio beautifully</div>
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            master planning design</div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
           </li>
           <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
-            <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
             master planning design</div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
           </li>
           <li data-transition="fade"> <img src="style/images/sliderbanner/4.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">built for creatives to showcase</div>
-            <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">their portfolio beautifully</div>
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            master planning design</div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
+          </li>
+          <li data-transition="fade"> <img src="style/images/sliderbanner/5.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            master planning design</div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
+          </li>
+          <li data-transition="fade"> <img src="style/images/sliderbanner/6.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            master planning design</div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
           </li>
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>
@@ -41,10 +61,10 @@
             <p style="font-size: 21px"><b>We turn our creativity and collaborative skills into what clients never imagined.</b></p>
             <p style="font-size: 18px">a+p group has been setup as from a+p consultants in 1997 in Singapore, since then it has been involved vigorously in various projects which varies integrated consultancies services - planning, urban design, arcitecture, landscape, interior, and engineering service.</p>
             <p style="font-size: 18px">In 2005, a+p obtained license to run (urban and town planning) license [2005001], which a+p is one of the few selected foreign consultancies approved by the goverment of People's Republic of China to do urban planning.</p>
-            <p style="font-size: 18px">To-date, we have office in Singapore, Beijing, Shanghai, Suzhou, Cebu, Bangkok, Bandung, and Yangon. We are now having a combined team of 100 people which consist of talented and experienced planners, architects, designers and engineers.</p>
+            <p style="font-size: 18px">To-date, we have office in Singapore, Beijing, Shanghai, Suzhou, Cebu, Bangkok, Jakarta, and Yangon. We are now having a combined team of 100 people which consist of talented and experienced planners, architects, designers and engineers.</p>
           </div>
           <div class="col-sm-6">
-            <img src="style/images/staff/team.png" alt="" />
+            <img src="style/images/art/sp9-1.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -54,14 +74,14 @@
   <!--/#about -->
   <div class="inverse-wrapper">
     <div class="container inner">
-      <div class="thin">
+      <div class="thin" style="margin: initial;">
         <h3 class="section-title text-left">What We Do</h3>
         <br><br>
       </div>
       <!-- /.thin -->
       <div class="row">
         <div class="col-sm-12">
-          <img src="style/images/chart.png" alt="" />
+          <img src="style/images/art/bs1.jpg" alt="" />
         </div>
         <!-- /column -->
       </div>
@@ -73,23 +93,19 @@
   <!-- /.light-wrapper --> 
   <div class="dark-wrapper">
     <div class="container inner">
-      <div class="thin">
+      <div class="thin" style="margin: initial;">
         <h3 class="section-title text-left">Our Team</h3>
       </div>
       <br><br>
       <!-- /.thin -->
         <div class="light-wrapper">
-          <div class="col-sm-5 text-center">
-            <figure><img src="style/images/staff/LSS_1.png" alt="" /></figure>
+          <div class="col-sm-6 text-left" style="padding-left: 0px">
+            <figure><img src="style/images/art/lss.jpg" alt="" /></figure>
           </div>
-          <div class="col-sm-1">
-          </div>
-          <div class="col-sm-6" style="text-align: justify;">
+          <div class="col-sm-6" style="text-align: justify;padding-right: 0px">
             <p style="color: black; font-size: 24px"><strong>Liew Soong Shoon</strong></p>
-            <p style="color: #DAA520; font-size: 18px"><strong>Founder & CEO</strong></p>
+            <p style="color: #DAA520; font-size: 18px"><strong>Founder & Principle</strong></p>
             <p>Liew Soong Shoon graduated with Honours in Bachelor of Arts (Architecture Studies), Bachelor of Architecture, and Master of Urban Design from National of University Singapore. He was worked at Liwellyn Davies (HK) Architects & Planners in Hong Kong and Conrad & Gargett Architects in Brisbane Australia.</p>
-
-            <p>He decided to go back to Singapore in 1994,  he worked as an architect and planner for OD Architects. He was a principle designer for Yue Hwa Conservation  Building which won URA Heritage awards in 1994.</p>
 
             <p>In 1997, he established A+P Group where his vision is to provide comprehensive approach consultancy services, which believes in quality and excellence in design and planning. He is a member of some professional council such as Singapore Institute of Architects (SIA), Royal Institute of British Architects (RIBA), Registered at Singapore Board of Architects, and APEC Architects.</p>
 
@@ -99,39 +115,39 @@
         </div>
     </div>
     <!-- /.container -->
-    <hr style="padding-top: 0px;margin-bottom: 0px;border-bottom: 2px solid rgba(0,0,0,1);width: 65%">
+    <hr style="padding-top: 0px;margin-bottom: 0px;border-bottom: 2px solid rgba(0,0,0,1);width: 100%">
     <div class="container inner">
       <div class="row grid-view">
         <div class="col-sm-4 text-center">
-          <figure><img src="style/images/staff/Jack.png" alt="" /></figure>
+          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
           <h4 class="post-title">Jack Chen</h4>
-          <div class="meta">Art Director</div>
+          <div class="meta">Director</div>
         </div>
         <!-- /column -->
         <div class="col-sm-4 text-center">
-          <figure><img src="style/images/staff/mimi.png" alt="" /></figure>
-          <h4 class="post-title">Ma Mi Mi Stree</h4>
-          <div class="meta">Photographer</div>
+          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
+          <h4 class="post-title">Mi Mi Swee</h4>
+          <div class="meta">Managing Partner</div>
         </div>
         <!-- /column -->
         <div class="col-sm-4 text-center">
-          <figure><img src="style/images/staff/kelvin.png" alt="" /></figure>
+          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
           <h4 class="post-title">Kelvin Wang</h4>
-          <div class="meta">Photographer & Editor</div>
+          <div class="meta">Director</div>
         </div>
         <!-- /column -->
         <div class="col-sm-2 text-center">
         </div>
         <div class="col-sm-4 text-center">
-          <figure><img src="style/images/staff/antonius.png" alt="" /></figure>
-          <h4 class="post-title">Antonius</h4>
-          <div class="meta">Videographer</div>
+          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
+          <h4 class="post-title">Antonius Khierawan</h4>
+          <div class="meta">Associate</div>
         </div>
         <!-- /column --> 
         <div class="col-sm-4 text-center">
-          <figure><img src="style/images/staff/Darren.png" alt="" /></figure>
+          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
           <h4 class="post-title">Darren Neil Coyoca</h4>
-          <div class="meta">Photographer</div>
+          <div class="meta">Associate</div>
         </div>
         <!-- /column -->
         <div class="col-sm-2 text-center">
@@ -141,14 +157,14 @@
     </div>
     <div class="dark-wrapper">
       <div class="container inner">
-        <div class="thin">
+        <div class="thin" style="margin: initial;">
           <h3 class="section-title text-left">Awards</h3>
           <br><br>
         </div>
         <!-- /.thin -->
         <div class="row">
           <div class="col-sm-12">
-            <figure><img src="style/images/awards.jpg" alt=""></figure>
+            <figure><img src="style/images/art/bs1.jpg" alt=""></figure>
           </div>
           <!-- /column -->
         </div>
@@ -168,6 +184,10 @@
         </div>
         <br><br>
         <!-- /.thin -->
+        <div class="row">
+          <div class="cbp-l-loadMore-text"> <a href="/listprojects" class="cbp-l-loadMorelink btn" style="background: #B59943"> <span class="cbp-l-loadMore-defaultText" style="background: #B59943">View All Projects</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">Loading...</span> </a> </div>
+        </div>
+        <br><br>
         <div class="cbp-panel">
           <!-- <div id="js-filters-mosaic" class="cbp-filter-container text-center">
             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item" style="color: white"> All </div>
@@ -286,17 +306,13 @@
           
         </div>
         <!--/.cbp-panel -->
-        <br><br>
-        <div class="row">
-          <div class="cbp-l-loadMore-text"> <a href="/listprojects" class="cbp-l-loadMorelink btn"> <span class="cbp-l-loadMore-defaultText">View All Projects</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">Loading...</span> </a> </div>
-        </div>
       </div>
       <!-- /.container --> 
     </div>
     <!-- /.dark-wrapper --> 
   </section>
   <!--/#portfolio -->
-  <hr style="padding-top: 0px;margin-bottom: 0px;border-bottom: 0.1px solid rgba(191, 194, 188, 1);width: 65%">
+  <!-- <hr style="padding-top: 0px;margin-bottom: 0px;border-bottom: 0.1px solid rgba(191, 194, 188, 1);width: 65%"> -->
   <section id="locations">
     <div class="inverse-wrapper">
       <div class="container inner">
@@ -304,10 +320,9 @@
         <div class="divide20"></div>
         <div class="row">
           <div class="col-sm-7">
-            <figure><img src="style/images/map.png" alt=""></figure>
+            <figure><img src="style/images/art/locations.jpg" alt=""></figure>
           </div>
-          <div class="col-sm-5">
-            <div style="font-size: 18px; border-style: solid; border-color: white; padding-top: 2%; padding-left: 2%">
+          <div class="col-sm-5" style="padding-right: 0px">
               <p style="margin-bottom: -8px; font-size: 20px"><strong>SINGAPORE (CORPORATE HEADQUARTER)</strong></p>
               <p style="margin-bottom: -8px">36B Sago Street, Singapore 059027</p>
               <p style="margin-bottom: -8px">T: +65 6323 5866 F: +65 6323 5877</p>
@@ -317,9 +332,8 @@
               <p style="margin-bottom: -8px">3rd Floor, Building 35, No. 135 North Lishi Road,</p>
               <p style="margin-bottom: -8px">Xicheng District, Beijing 100037, China</p>
               <p>T: 010 - 68330573 E: ap-bj@ap-grp.com</p>
-            </div>
             <br><br>
-            <div style="margin-left: 3%">
+            <div>
               <p style="margin-bottom: -8px; font-size: 20px"><strong>YANGON (BRANCH OFFICE)</strong></p>
               <p style="margin-bottom: -8px">56 Kabaraye Pagoda Road, Yangon, Myanmar 11081</p>
               <p>T: +95 1666 710 E: ap-ygn@ap-grp.com</p>
@@ -365,33 +379,37 @@
         <h3 class="section-title text-center" style="font-size: 30px">Clients <img src="style/images/element.png" style="margin-bottom: 2%"></h3>
         <div class="divide20"></div><div class="divide20"></div><div class="divide20"></div>
         <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <figure><img src="style/images/clients.png"></figure>
-            </div>
+          <div class="col-sm-12">
+            <figure><img src="style/images/art/bs1.jpg" alt=""></figure>
           </div>
+          <!-- /column -->
         </div>
+        <!-- /.row --> 
       </div>
       <div class="row inner joinus">
-        <div class="col-sm-6" style="color: white;margin-left: 25%">
-          <h2 style="color: white;"><b>Join Us!</b></h2>
-          <div>
-            <p style="margin-bottom: -8px;"><b>a+p group is always seeking ambitious</b></p>
-            <p style="margin-bottom: -8px"><b>and motivated architectural professionals</b></p>
-            <p style="margin-bottom: -8px"><b>to our offices in Singapore, Beĳing,</b></p>
-            <p style="margin-bottom: -8px"><b>Suzhou, Yangon, Bangkok, Cebu, and</b></p>
-            <p style="margin-bottom: -8px"><b>Bandung.</b></p>
-            <br>
-            <p style="margin-bottom: -8px">at a+p group, you will be engaged in good projects with</p>
-            <p style="margin-bottom: -8px">rigorous responsibilities from drafting to final presentation</p>
-            <p style="margin-bottom: -8px">experiences. There will be tough competitions among the other</p>
-            <p style="margin-bottom: -8px">colleagues proposals and competitors form the other companies,</p>
-            <p style="margin-bottom: -8px">which will be a good training opportunity in the real world.</p>
-            <br>
-            <p style="margin-bottom: -8px">Kindly send in your CV and Portfolio under 10 mb to</p>
-            <p style="margin-bottom: -8px">info@ap-grp.com</p>
+        <div class="container inner" style="padding-top: 0px">
+          <div class="thin" style="margin: initial;color: white">
+          <h2 style="color: white;"><b>Join Us!</b></h2>           
+            <div>
+              <p style="margin-bottom: -8px;"><b>a+p group is always seeking ambitious</b></p>
+              <p style="margin-bottom: -8px"><b>and motivated architectural professionals</b></p>
+              <p style="margin-bottom: -8px"><b>to our offices in Singapore, Beĳing,</b></p>
+              <p style="margin-bottom: -8px"><b>Suzhou, Yangon, Bangkok, Cebu, and</b></p>
+              <p style="margin-bottom: -8px"><b>Bandung.</b></p>
+              <br>
+              <p style="margin-bottom: -8px">at a+p group, you will be engaged in good projects with</p>
+              <p style="margin-bottom: -8px">rigorous responsibilities from drafting to final presentation</p>
+              <p style="margin-bottom: -8px">experiences. There will be tough competitions among the other</p>
+              <p style="margin-bottom: -8px">colleagues proposals and competitors form the other companies,</p>
+              <p style="margin-bottom: -8px">which will be a good training opportunity in the real world.</p>
+              <br>
+              <p style="margin-bottom: -8px">Kindly send in your CV and Portfolio under 10 mb to</p>
+              <p style="margin-bottom: -8px">info@ap-grp.com</p>
+            </div>
           </div>
+          <!-- /.thin -->
         </div>
+        <!-- /.container -->
       </div>
       <!--/.container --> 
     </div>
