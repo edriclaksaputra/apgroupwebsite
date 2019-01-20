@@ -1,5 +1,5 @@
   <footer class="footer inverse-wrapper">
-    <div class="container inner">
+    <div class="container inner" style="margin-left: 2%; margin-right: 0px; width: 100%">
       <div class="row">
         <div class="col-sm-4">
           <div class="widget">
@@ -7,13 +7,9 @@
           </div>
           <!-- /.widget --> 
         </div>
+        <div class="col-sm-4"></div>
         <!-- /column -->
-        
-        <div class="col-sm-4">
-        </div>
-        <!-- /column -->
-        
-        <div class="col-sm-4">
+        <div class="col-sm-4" style="float: right; margin-right: 2%">
           <div class="col-sm-3">
             <p>Explore</p>
             <ul class="tag-list">
@@ -29,7 +25,7 @@
               <li><a href="#locations" title="about">Locations</a></li>
             </ul>
             <ul class="tag-list">
-              <li><a href="#jobs" title="about">Jobs</a></li>
+              <li><a href="#jobs" title="about">Clients</a></li>
             </ul>
           </div>
           <!-- /.widget -->
@@ -60,18 +56,9 @@
     <!-- .container -->
     
     <div class="sub-footer">
-      <div class="container inner">
+      <div class="container inner" style="margin-left: 2%">
         <div class="col-sm-4" style="padding-left: 0px">
           <p class="text-left"><b>© 2018 a+pgrp. All Rights Reserved.</b></p>
-        </div>
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-          <div class="col-sm-6">
-            <p class="text-left"><b>Terms of Use</b></p>
-          </div>
-          <div class="col-sm-6">
-            <p class="text-left"><b>Privacy Policy</b></p>
-          </div>
         </div>
       </div>
       <!-- .container --> 

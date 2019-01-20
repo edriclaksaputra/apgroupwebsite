@@ -6,24 +6,24 @@
           <li data-transition="fade"> <img src="style/images/sliderbanner/1.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <!-- <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">We Are Expert In</h1>
             <h1 class="tp-caption large sfr" data-x="30" data-y="348" data-speed="900" data-start="800" data-easing="Sine.easeOut">Architectural.</h1> -->
-            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
-            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348">architecture design consultant & <br />
             master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
           </li>
           <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+            <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
+            <div class="tp-caption medium sfr" data-x="45" data-y="348">architecture design consultant & <br />
+            master planning design</div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
+          </li>
+          <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
             master planning design</div>
             <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
-          </li>
-          <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
-            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
-            master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
-          </li>
-          <li data-transition="fade"> <img src="style/images/sliderbanner/4.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          </li> -->
+          <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/4.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
             master planning design</div>
@@ -40,7 +40,7 @@
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
             master planning design</div>
             <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
-          </li>
+          </li> -->
         </ul>
         <div class="tp-bannertimer tp-bottom"></div>
       </div>
@@ -115,7 +115,6 @@
         </div>
     </div>
     <!-- /.container -->
-    <hr style="padding-top: 0px;margin-bottom: 0px;border-bottom: 2px solid rgba(0,0,0,1);width: 100%">
     <div class="container inner">
       <div class="row grid-view">
         <div class="col-sm-4 text-center">
@@ -185,7 +184,7 @@
         <br><br>
         <!-- /.thin -->
         <div class="row">
-          <div class="cbp-l-loadMore-text"> <a href="/listprojects" class="cbp-l-loadMorelink btn" style="background: #B59943"> <span class="cbp-l-loadMore-defaultText" style="background: #B59943">View All Projects</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">Loading...</span> </a> </div>
+          <div class="cbp-l-loadMore-text"> <a href="/listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW ALL PROJECTS"><span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">Loading...</span> </a> </div>
         </div>
         <br><br>
         <div class="cbp-panel">
@@ -386,7 +385,7 @@
         </div>
         <!-- /.row --> 
       </div>
-      <div class="row inner joinus">
+      <div class="row inner joinus" style="padding-bottom: 0px">
         <div class="container inner" style="padding-top: 0px">
           <div class="thin" style="margin: initial;color: white">
           <h2 style="color: white;"><b>Join Us!</b></h2>           
@@ -416,11 +415,5 @@
     <!--/.light-wrapper -->
   </section>
   <!--/#clients -->
-  
-  <div class="dark-wrapper">
-    <div class="container inner">
-    </div>
-    <!--/.container --> 
-  </div>
   <!-- /.dark-wrapper -->
 @include('layouts.footer')

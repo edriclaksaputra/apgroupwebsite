@@ -367,7 +367,8 @@ h2.post-title + .meta {
 	background: #fafbfc;
 }
 .dark-wrapper {
-	background: #f2f5f7;
+	/*background: #f2f5f7;*/
+    background: #D8D8D8;
 }
 .inverse-wrapper {
     background: #26262a;
@@ -768,7 +769,8 @@ footer ul.circled li:before {
 .navbar .nav > li.current > a,
 .navbar .navbar-nav > li > a:focus,
 .navbar .nav > li > a:hover {
-    color: #70aed2 !important 
+    /*color: #70aed2 !important */
+    color: #B59943 !important 
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -1324,7 +1326,7 @@ figure .link-out:hover {
 .cbp-filter-container .cbp-filter-item:before,
 .sticky-filter ul li:before {
     display: inline-block;
-    content: "/";
+    content: "|";
     padding: 0 25px 0 19px;
     color: rgba(0,0,0,0.2);
 }
@@ -3469,7 +3471,8 @@ textarea {
     color: #faaa5e
 }
 .social.naked a:hover .icon-s-facebook {
-    color: #677fb5
+    /*color: #677fb5*/
+    color: #B59943
 }
 .social.naked a:hover .icon-s-twitter {
     color: #70c2e9
@@ -3484,7 +3487,8 @@ textarea {
     color: #42a9fb
 }
 .social.naked a:hover .icon-s-linkedin {
-    color: #3daccf
+    /*color: #3daccf*/
+    color: #B59943
 }
 .social.naked a:hover .icon-s-vimeo {
     color: #42b5d4
@@ -3547,7 +3551,8 @@ textarea {
     color: #9acf48
 }
 .social.naked a:hover .icon-s-instagram {
-    color: #926d53
+    /*color: #926d53*/
+    color: #B59943
 }
 .social.naked a:hover .icon-s-evernote {
     color: #9fdc82

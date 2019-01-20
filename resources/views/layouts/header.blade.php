@@ -45,7 +45,7 @@
     </nav>
     <!-- /.navbar-collapse -->
     <div class="social-wrapper">
-      <ul class="social naked" style="margin-right: 10%">
+      <ul class="social naked" style="margin-right: 2%">
         <li><a href="#"><i class="icon-s-facebook"></i></a></li>
         <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
         <li><a href="#"><i class="icon-s-instagram"></i></a></li>

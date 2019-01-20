@@ -41,7 +41,8 @@ ul.circled li:before {
 .navbar .nav > li.current > a,
 .navbar .navbar-nav > li > a:focus,
 .navbar .nav > li > a:hover {
-    color: #70aed2 !important 
+    /*color: #70aed2 !important */
+    color: #B59943 !important 
 }
 .navbar .dropdown-menu li:first-child {
     border-top: 2px solid #70aed2
@@ -64,7 +65,8 @@ ul.circled li:before {
 .cbp-filter-container .cbp-filter-item.cbp-filter-item-active,
 .sticky-filter ul li a:hover,
 .sticky-filter ul li.current a {
-    color: #70aed2 !important;
+    /*color: #70aed2 !important;*/
+    color: #B59943 !important;
 }
 .item-details li strong {
     color: #70aed2;
@@ -85,7 +87,8 @@ ul.circled li:before {
     color: #70aed2
 }
 footer ul.tag-list li a:hover {
-    background: #70aed2 !important;
+    /*background: #70aed2 !important;*/
+    background: #B59943 !important;
 }
 .sidebox ul.tag-list li a:hover {
     color: #70aed2 !important;
