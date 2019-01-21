@@ -13,19 +13,19 @@
           <div class="col-sm-3" style="text-align: center;">
             <p>Explore</p>
             <ul class="tag-list">
-              <li><a href="#home" title="home">Home</a></li>
+              <li><a href="/#home" title="home">Home</a></li>
             </ul>
             <ul class="tag-list">
-              <li><a href="#about" title="about">About</a></li>
+              <li><a href="/#about" title="about">About</a></li>
             </ul>
             <ul class="tag-list">
-              <li><a href="#projects" title="about">Projects</a></li>
+              <li><a href="/#projects" title="about">Projects</a></li>
             </ul>
             <ul class="tag-list">
-              <li><a href="#locations" title="about">Locations</a></li>
+              <li><a href="/#locations" title="about">Locations</a></li>
             </ul>
             <ul class="tag-list">
-              <li><a href="#jobs" title="about">Clients</a></li>
+              <li><a href="/#jobs" title="about">Clients</a></li>
             </ul>
           </div>
           <!-- /.widget -->

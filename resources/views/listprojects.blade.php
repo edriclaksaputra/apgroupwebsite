@@ -1,4 +1,27 @@
-@include('layouts.header')  
+@include('layouts.header')
+    <nav class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/" title="home">Home</a></li>
+        <li><a href="/" title="about">About</a></li>
+        <li class="current"><a href="#portfolio" title="portofolio">Projects</a></li>
+        <li><a href="/" title="locations">Locations</a></li>
+        <li><a href="/" title="jobs">Clients</a></li>
+      </ul>
+      <!-- /.navbar-nav --> 
+    </nav>
+    <!-- /.navbar-collapse -->
+    <div class="social-wrapper">
+      <ul class="social naked" style="margin-right: 2%">
+        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-s-instagram"></i></a></li>
+      </ul>
+      <!-- /.social --> 
+    </div>
+    <!-- /.social-wrapper --> 
+  </div>
+  <!-- /.navbar -->
+
   <div class="post-parallax parallax inverse-wrapper parallax2" style="background-image: url(style/images/art/parallax2.jpg);">
     <div class="container inner text-center">
       <div class="headline text-right">
@@ -26,7 +49,7 @@
           <div data-filter=".residential" class="cbp-filter-item"> Residential + Commercial </div>
         </div>
         <div id="js-grid-mosaic" class="cbp">
-          <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/hospitality/hotelcebu/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -45,7 +68,7 @@
           </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post2.html">
+          <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/hospitality/camotesresort/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -63,7 +86,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post3.html">
+          <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/hospitality/martinavenue/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -82,7 +105,7 @@
           </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post4.html">
+          <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/hospitality/panpacific/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -100,7 +123,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/hospitality/shangrilajiangsu/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -118,7 +141,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item residential hospitality"> <a class="cbp-caption" href="portfolio-post2.html">
+          <div class="cbp-item residential hospitality"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/hospitality/tagmetromanila/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -137,7 +160,7 @@
           </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item industrial"> <a class="cbp-caption" href="portfolio-post3.html">
+          <div class="cbp-item industrial"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/industrial/defuindustrialcity/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -155,7 +178,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item industrial"> <a class="cbp-caption" href="portfolio-post4.html">
+          <div class="cbp-item industrial"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/industrial/hgmetal/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -173,7 +196,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item industrial"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item industrial"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/industrial/secombuilding/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -191,7 +214,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item industrial"> <a class="cbp-caption" href="portfolio-post2.html">
+          <div class="cbp-item industrial"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/industrial/wajiawantransporthub/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -210,7 +233,7 @@
           
           <!--/.cbp-item -->
           
-          <div class="cbp-item institutional"> <a class="cbp-caption" href="portfolio-post3.html">
+          <div class="cbp-item institutional"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/institutional/meikartauniversity/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -229,7 +252,7 @@
           
           <!--/.cbp-item -->
           
-          <div class="cbp-item institutional"> <a class="cbp-caption" href="portfolio-post4.html">
+          <div class="cbp-item institutional"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/institutional/myanmarengineeringcouncil/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -247,7 +270,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item institutional"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item institutional"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/institutional/tamwegeneralhospital/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -265,7 +288,7 @@
             </a> </div>
           <!--/.cbp-item --> 
           
-          <div class="cbp-item institutional"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item institutional"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/institutional/wuhanmetallurgicalhq/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -283,7 +306,7 @@
             </a> </div>
           <!--/.cbp-item -->
 
-          <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/residentialcommercial/bbbresidences/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -301,7 +324,7 @@
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/residentialcommercial/bonamytower/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -319,7 +342,7 @@
             </a> </div>
           <!--/.cbp-item --> 
           
-          <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/residentialcommercial/greenlandwujianglake/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -337,7 +360,7 @@
             </a> </div>
           <!--/.cbp-item --> 
           
-          <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/residentialcommercial/mgreenresidences/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -355,7 +378,7 @@
             </a> </div>
           <!--/.cbp-item --> 
           
-          <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/residentialcommercial/siymixedusecomplex/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -373,7 +396,7 @@
             </a> </div>
           <!--/.cbp-item --> 
           
-          <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post.html">
+          <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
             <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/residentialcommercial/wuhucitycomplex/banner.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">

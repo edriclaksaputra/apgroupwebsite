@@ -1,4 +1,27 @@
-@include('layouts.header')  
+@include('layouts.header')
+    <nav class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#home" title="home">Home</a></li>
+        <li><a href="#about" title="about">About</a></li>
+        <li><a href="#portfolio" title="portofolio">Projects</a></li>
+        <li><a href="#locations" title="locations">Locations</a></li>
+        <li><a href="#clients" title="jobs">Clients</a></li>
+      </ul>
+      <!-- /.navbar-nav --> 
+    </nav>
+    <!-- /.navbar-collapse -->
+    <div class="social-wrapper">
+      <ul class="social naked" style="margin-right: 2%">
+        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon-s-instagram"></i></a></li>
+      </ul>
+      <!-- /.social --> 
+    </div>
+    <!-- /.social-wrapper --> 
+  </div>
+  <!-- /.navbar -->
+
   <section id="home">
     <div class="tp-fullscreen-container revolution">
       <div class="tp-fullscreen">
@@ -9,13 +32,13 @@
             <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348">architecture design consultant & <br />
             master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></a></div>
           </li>
           <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348">architecture design consultant & <br />
             master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></a></div>
           </li>
           <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
@@ -196,7 +219,7 @@
             <div data-filter=".industrial" class="cbp-filter-item" style="color: white"> Industrial </div>
           </div> -->
           <div id="js-grid-mosaic" class="cbp">
-            <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/minresidences/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
@@ -209,7 +232,7 @@
               </a> </div>
             <!--/.cbp-item -->
             
-            <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/nanchanguniversityhospital/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
@@ -222,7 +245,7 @@
               </a> </div>
             <!--/.cbp-item -->
             
-            <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/baihotel/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
@@ -235,7 +258,7 @@
               </a> </div>
             <!--/.cbp-item -->
             
-            <div class="cbp-item hospitality"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/pbsacademy/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
@@ -248,7 +271,7 @@
               </a> </div>
             <!--/.cbp-item -->
             
-            <div class="cbp-item residential"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/lot8/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
@@ -261,7 +284,7 @@
               </a> </div>
             <!--/.cbp-item -->
             
-            <div class="cbp-item print institutional"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item print institutional"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/mtower/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
@@ -275,7 +298,7 @@
             </div>
             <!--/.cbp-item -->
             
-            <div class="cbp-item industrial"> <a class="cbp-caption" href="portfolio-post2.html">
+            <div class="cbp-item industrial"> <a class="cbp-caption" href="projectdetail">
               <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/ycs/banner.jpg" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">

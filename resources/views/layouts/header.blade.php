@@ -33,25 +33,3 @@
       <!-- /.basic-wrapper --> 
     </div>
     <!-- /.navbar-header -->
-    <nav class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="#home" title="home">Home</a></li>
-        <li><a href="#about" title="about">About</a></li>
-        <li><a href="#portfolio" title="portofolio">Projects</a></li>
-        <li><a href="#locations" title="locations">Locations</a></li>
-        <li><a href="#clients" title="jobs">Clients</a></li>
-      </ul>
-      <!-- /.navbar-nav --> 
-    </nav>
-    <!-- /.navbar-collapse -->
-    <div class="social-wrapper">
-      <ul class="social naked" style="margin-right: 2%">
-        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-        <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
-        <li><a href="#"><i class="icon-s-instagram"></i></a></li>
-      </ul>
-      <!-- /.social --> 
-    </div>
-    <!-- /.social-wrapper --> 
-  </div>
-  <!-- /.navbar -->

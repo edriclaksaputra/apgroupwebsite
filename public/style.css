@@ -532,7 +532,7 @@ footer ul.circled li:before {
 /*-----------------------------------------------------------------------------------*/
 .btn,
 .vanilla-form label.custom-select span {
-    color: #FFF !important;
+    color: #3b3b3b !important;
     background: #70aed2;
     border: 0;
     margin-bottom: 10px;
@@ -572,6 +572,29 @@ footer ul.circled li:before {
     font-family: 'Montserrat', sans-serif;
 }
 .btn-custom:hover {
+    background: #B59943;
+    border: none;
+}
+.btn-customback {
+    color: black !important;
+    background: none;
+    border: 1;
+    border-color: black;
+    font-size: 12px;
+    line-height: 1;
+    padding: 14px 30px 14px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: none;
+    text-transform: none;
+    transition: all 150ms ease-in;
+    box-shadow: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-customback:hover {
     background: #B59943;
     border: none;
 }
