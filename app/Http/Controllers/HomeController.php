@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Projects;
+use App\Staff;
 
 class HomeController extends Controller
 {
@@ -13,7 +15,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view ('index');
+        $listproject = Projects::where('categories_id','1')->get();
+        $liststaff = Staff::get();
+        for ($i=0; $i < count($liststaff); $i++) { 
+            $liststaff[$i ]->biografi = explode('||', $liststaff[$i ]->biografi);
+        }
+        return view('index', compact('listproject','liststaff'));
     }
 
     /**

@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="style/images/favicon.png">
+<link rel="shortcut icon" href="{{ asset('style/images/favicon.png') }}">
 <title>a+pgrp architecture and master planning</title>
 <!-- Bootstrap core CSS -->
-<link href="style/css/bootstrap.min.css" rel="stylesheet">
-<link href="style/css/plugins.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-<link href="style/css/color/blue.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href="style/type/icons.css" rel="stylesheet">
+<link href="{{ asset('style/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('style/css/plugins.css') }}" rel="stylesheet">
+<link href="{{ asset('style.css') }}" rel="stylesheet">
+<link href="{{ asset('style/css/color/blue.css') }}" rel="stylesheet">
+<link href="{{ asset('http://fonts.googleapis.com/css?family=Montserrat:400,700') }}" rel='stylesheet' type='text/css'>
+<link href="{{ asset('http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic') }}" rel='stylesheet' type='text/css'>
+<link href="{{ asset('style/type/icons.css') }}" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
   <div class="navbar">
     <div class="navbar-header">
       <div class="basic-wrapper">
-        <div class="navbar-brand"> <a href="/"><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-light" alt="" /><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-dark" alt="" /></a> </div>
+        <div class="navbar-brand"> <a href="/"><img src="#" srcset="{{ asset('style/images/logoapgrp.png 1x') }}, {{ asset('style/images/logoapgrp.png 2x') }}" class="logo-light" alt="" /><img src="#" srcset="{{ asset('style/images/logoapgrp.png 1x') }}, {{ asset('style/images/logoapgrp.png 2x') }}" class="logo-dark" alt="" /></a> </div>
         <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a> </div>
       <!-- /.basic-wrapper --> 
     </div>

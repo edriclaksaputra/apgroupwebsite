@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="style/images/favicon.png">
+<link rel="shortcut icon" href="{{ asset('style/images/favicon.png') }}">
 <title>a+pgrp architecture and master planning</title>
 <!-- Bootstrap core CSS -->
-<link href="style/css/bootstrap.min.css" rel="stylesheet">
-<link href="style/css/plugins.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-<link href="style/css/color/blue.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href="style/type/icons.css" rel="stylesheet">
+<link href="{{ asset('style/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('style/css/plugins.css') }}" rel="stylesheet">
+<link href="{{ asset('style.css') }}" rel="stylesheet">
+<link href="{{ asset('style/css/color/blue.css') }}" rel="stylesheet">
+<link href="{{ asset('http://fonts.googleapis.com/css?family=Montserrat:400,700') }}" rel='stylesheet' type='text/css'>
+<link href="{{ asset('http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic') }}" rel='stylesheet' type='text/css'>
+<link href="{{ asset('style/type/icons.css') }}" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
   <div class="navbar" style="background: rgba(29,29,33,1) !important;">
     <div class="navbar-header">
       <div class="basic-wrapper">
-        <div class="navbar-brand"> <a href="/"><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-light" alt="" /><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-dark" alt="" /></a> </div>
+        <div class="navbar-brand"> <a href="/"><img src="#" srcset="{{ asset('style/images/logoapgrp.png 1x') }}, {{ asset('style/images/logoapgrp.png 2x') }}" class="logo-light" alt="" /><img src="#" srcset="{{ asset('style/images/logoapgrp.png 1x') }}, {{ asset('style/images/logoapgrp.png 2x') }}" class="logo-dark" alt="" /></a> </div>
         <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a> </div>
       <!-- /.basic-wrapper --> 
     </div>
@@ -60,15 +60,17 @@
   <div class="light-wrapper">
     <div class="container inner">
       <div class="basic-slider">
-        <div class="item"><img src="style/images/art/dproject1.jpg" alt="" /> </div>
-        <div class="item"><img src="style/images/art/dproject2.jpg" alt="" /> </div>
-        <div class="item"><img src="style/images/art/bs3.jpg" alt="" /> </div>
+        @foreach($listPhotos as $listPhotosDetails)
+        @if($listPhotosDetails->project_id == $detailProject->id)
+        <div class="item"><img src="{{URL::asset($listPhotosDetails->photo)}}" alt="" /> </div>
+        @endif
+        @endforeach
       </div>
       <!-- /.basic-slider -->
       
       <div class="divide30"></div>
-      <h2 class="post-title">Nanjing University Hospital, China (*Example)</h2>
-      <div class="meta"><span class="date">14 Aug 2015</span><span>Kategori Bangunan</span><span>Nama Client Disini</span></div>
+      <h2 class="post-title">{{$detailProject->title}}</h2>
+      <div class="meta" style="font-size: 15px"><span>{{$detailProject->gfa}}</span><span>{{$detailProject->location}}</span><span>{{$detailProject->categories->name}}</span><span>Status : {{$detailProject->status}}</span></div>
       <p>Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <!-- /.container -->

@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="widget">
-            <h3 class="widget-title"><a href="/"><img src="#" srcset="style/images/logoapgrp.png 1x, style/images/logoapgrp.png 2x" class="logo-light" alt="" /></a> </h3>
+            <h3 class="widget-title"><a href="/"><img src="#" srcset="{{ asset('style/images/logoapgrp.png 1x') }}, {{ asset('style/images/logoapgrp.png 2x') }}" class="logo-light" alt="" /></a> </h3>
           </div>
           <!-- /.widget --> 
         </div>
@@ -70,11 +70,11 @@
 </main>
 <!-- slide-portfolio-item-content --> 
 <a href="#0" class="slide-portfolio-item-content-close"><i class="budicon-cancel-1"></i></a> <!-- close slide portfolio content --> 
-<script src="style/js/jquery.min.js"></script> 
-<script src="style/js/bootstrap.min.js"></script> 
-<script src="style/js/plugins.js"></script> 
-<script src="style/js/classie.js"></script> 
-<script src="style/js/jquery.themepunch.tools.min.js"></script> 
-<script src="style/js/scripts.js"></script>
+<script src="{{ asset('style/js/jquery.min.js') }}"></script> 
+<script src="{{ asset('style/js/bootstrap.min.js') }}"></script> 
+<script src="{{ asset('style/js/plugins.js') }}"></script> 
+<script src="{{ asset('style/js/classie.js') }}"></script> 
+<script src="{{ asset('style/js/jquery.themepunch.tools.min.js') }}"></script> 
+<script src="{{ asset('style/js/scripts.js') }}"></script>
 </body>
 </html>

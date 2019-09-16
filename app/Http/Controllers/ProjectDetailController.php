@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Projects;
+use App\Photos;
 
 class ProjectDetailController extends Controller
 {
@@ -13,7 +15,7 @@ class ProjectDetailController extends Controller
      */
     public function index()
     {
-        return view('detailproject');
+        
     }
 
     /**
@@ -43,9 +45,11 @@ class ProjectDetailController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($id, $projectName)
     {
-        //
+        $listPhotos = Photos::get();
+        $detailProject = Projects::where('id', $id)->get()->first();
+        return view('detailproject', compact('detailProject', 'listPhotos'));
     }
 
     /**

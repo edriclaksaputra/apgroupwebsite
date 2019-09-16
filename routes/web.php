@@ -16,4 +16,4 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/listprojects', 'ProjectsController@index')->name('listprojects');
-Route::get('/projectdetail', 'ProjectDetailController@index')->name('projectdetail');
+Route::get('/projectdetail/{id}/{projectName}', 'ProjectDetailController@show')->name('projectdetail');

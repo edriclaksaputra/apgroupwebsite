@@ -126,13 +126,12 @@
             <figure><img src="style/images/art/lss.jpg" alt="" /></figure>
           </div>
           <div class="col-sm-6" style="text-align: justify;padding-right: 0px">
-            <p style="color: black; font-size: 24px"><strong>Liew Soong Shoon</strong></p>
-            <p style="color: #DAA520; font-size: 18px"><strong>Founder & Principle</strong></p>
-            <p>Liew Soong Shoon graduated with Honours in Bachelor of Arts (Architecture Studies), Bachelor of Architecture, and Master of Urban Design from National of University Singapore. He was worked at Liwellyn Davies (HK) Architects & Planners in Hong Kong and Conrad & Gargett Architects in Brisbane Australia.</p>
+            <p style="color: black; font-size: 24px"><strong>{{$liststaff[0]->name}}</strong></p>
+            <p style="color: #DAA520; font-size: 18px"><strong>{{$liststaff[0]->role}}</strong></p>
+            @foreach($liststaff[0]->biografi as $liststaffbio)
+            <p>{{$liststaffbio}}</p>
 
-            <p>In 1997, he established A+P Group where his vision is to provide comprehensive approach consultancy services, which believes in quality and excellence in design and planning. He is a member of some professional council such as Singapore Institute of Architects (SIA), Royal Institute of British Architects (RIBA), Registered at Singapore Board of Architects, and APEC Architects.</p>
-
-            <p>Nowadays, a+p is constantly establishing itself as an energetic and innovative consultancy firm. a+p believes in team and expertise involvement, technological advancement in handling design and planning problems via the critical & analytical process in facing design challenge and potential. a+p seeks to achieve the most effective, innovative, functional and quality design solutions.</p>
+            @endforeach
           </div>
           <!-- /column -->
         </div>
@@ -140,38 +139,23 @@
     <!-- /.container -->
     <div class="container inner">
       <div class="row grid-view">
+        @for($i=1; $i< count($liststaff) - 2; $i++)
         <div class="col-sm-4 text-center">
           <figure><img src="style/images/art/person.jpg" alt="" /></figure>
-          <h4 class="post-title">Jack Chen</h4>
-          <div class="meta">Director</div>
+          <h4 class="post-title">{{$liststaff[$i]->name}}</h4>
+          <div class="meta">{{$liststaff[$i]->role}}</div>
         </div>
-        <!-- /column -->
-        <div class="col-sm-4 text-center">
-          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
-          <h4 class="post-title">Mi Mi Swee</h4>
-          <div class="meta">Managing Partner</div>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-4 text-center">
-          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
-          <h4 class="post-title">Kelvin Wang</h4>
-          <div class="meta">Director</div>
-        </div>
-        <!-- /column -->
+        @endfor
         <div class="col-sm-2 text-center">
         </div>
+        @for($i=4; $i< count($liststaff); $i++)
         <div class="col-sm-4 text-center">
           <figure><img src="style/images/art/person.jpg" alt="" /></figure>
-          <h4 class="post-title">Antonius Khierawan</h4>
-          <div class="meta">Associate</div>
-        </div>
-        <!-- /column --> 
-        <div class="col-sm-4 text-center">
-          <figure><img src="style/images/art/person.jpg" alt="" /></figure>
-          <h4 class="post-title">Darren Neil Coyoca</h4>
-          <div class="meta">Associate</div>
+          <h4 class="post-title">{{$liststaff[$i]->name}}</h4>
+          <div class="meta">{{$liststaff[$i]->role}}</div>
         </div>
         <!-- /column -->
+        @endfor
         <div class="col-sm-2 text-center">
         </div>
       </div>
@@ -219,110 +203,20 @@
             <div data-filter=".industrial" class="cbp-filter-item" style="color: white"> Industrial </div>
           </div> -->
           <div id="js-grid-mosaic" class="cbp">
-            <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/minresidences/banner.jpg" alt="" /> </div>
+            @foreach($listproject as $listprojectsdetail)
+            <div class="cbp-item residential"> <a class="cbp-caption" href="{{url('/projectdetail/' . $listprojectsdetail->id . '/' . $listprojectsdetail->title)}}">
+              <div class="cbp-caption-defaultWrap"> <img src="{{$listprojectsdetail->avatar}}" alt="" /> </div>
               <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignCenter">
                   <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">MIN Residences, Yangon</div>
+                    <div class="cbp-l-caption-title">{{$listprojectsdetail->title}}</div>
                   </div>
                 </div>
               </div>
               <!--/.cbp-caption-activeWrap --> 
               </a> </div>
             <!--/.cbp-item -->
-            
-            <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/nanchanguniversityhospital/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Nanjing University Hospital, China</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a> </div>
-            <!--/.cbp-item -->
-            
-            <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/baihotel/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Bai Hotel, Cebu</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a> </div>
-            <!--/.cbp-item -->
-            
-            <div class="cbp-item hospitality"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/pbsacademy/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">PSB Academy, Singapore</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a> </div>
-            <!--/.cbp-item -->
-            
-            <div class="cbp-item residential"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/lot8/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">LOT 8 Residences, CEBU</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a> </div>
-            <!--/.cbp-item -->
-            
-            <div class="cbp-item print institutional"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/mtower/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">M Tower, Yangon</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a>
-            </div>
-            <!--/.cbp-item -->
-            
-            <div class="cbp-item industrial"> <a class="cbp-caption" href="projectdetail">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/ycs/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Yangon Central Railway Station, Myanmar</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a> </div>
-            <!--/.cbp-item -->
-            
-            <div class="cbp-item print industrial"> <a class="cbp-caption" href="portfolio-post4.html">
-              <div class="cbp-caption-defaultWrap"> <img src="style/images/projects/main/thakinmyapark/banner.jpg" alt="" /> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Thakin Mya Park, Myanmar</div>
-                  </div>
-                </div>
-              </div>
-              <!--/.cbp-caption-activeWrap --> 
-              </a> </div>
-            <!--/.cbp-item -->
+            @endforeach
           </div>
           <!--/.cbp --> 
           
