@@ -33,18 +33,18 @@
             <iframe style="pointer-events: none;height: 115%; width: 100%" src="https://www.youtube.com/embed/hWOB5QYcmh0?autoplay=1&mute=1&controls=0&showinfo=0"></iframe>
             <div class="tp-caption medium sfr" data-x="center" data-y="500"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="FEATURED PROJECTS"></a></div>
           </li> -->
-          <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
+          <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+            <!-- <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
-            master planning design</div>
+            master planning design</div> -->
             <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="FEATURED PROJECTS"></a></div>
-          </li> -->
-          <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
+          </li>
+          <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+            <!-- <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
-            master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></div>
-          </li> -->
+            master planning design</div> -->
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="FEATURED PROJECTS"></a></div>
+          </li>
           <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/4.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
