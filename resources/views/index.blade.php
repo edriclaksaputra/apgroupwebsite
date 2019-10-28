@@ -27,19 +27,18 @@
       <div class="tp-fullscreen">
         <ul>
           <li data-transition="fade"> <img src="style/images/sliderbanner/1.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-            <!-- <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">We Are Expert In</h1>
-            <h1 class="tp-caption large sfr" data-x="30" data-y="348" data-speed="900" data-start="800" data-easing="Sine.easeOut">Architectural.</h1> -->
-            <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
-            <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
-            master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></a></div>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="FEATURED PROJECTS"></a></div>
           </li>
-          <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <!-- <li data-transition="fade">
+            <iframe style="pointer-events: none;height: 115%; width: 100%" src="https://www.youtube.com/embed/hWOB5QYcmh0?autoplay=1&mute=1&controls=0&showinfo=0"></iframe>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="FEATURED PROJECTS"></a></div>
+          </li> -->
+          <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
             master planning design</div>
-            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="VIEW OUR WORK"></a></div>
-          </li>
+            <div class="tp-caption medium sfr" data-x="center" data-y="500" data-speed="900" data-start="1500" data-easing="Sine.easeOut"><a href="listprojects"><input type="button" class="btn-custom" style="border-width: 1px" value="FEATURED PROJECTS"></a></div>
+          </li> -->
           <!-- <li data-transition="fade"> <img src="style/images/sliderbanner/3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
             <h1 class="tp-caption large sfr" data-x="45" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">a+pgrp</h1>
             <div class="tp-caption medium sfr" data-x="45" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">architecture design consultant & <br />
@@ -99,7 +98,6 @@
     <div class="container inner">
       <div class="thin" style="margin: initial;">
         <h3 class="section-title text-left">What We Do</h3>
-        <br><br>
       </div>
       <!-- /.thin -->
       <div class="row">
@@ -291,17 +289,15 @@
   
   <section id="clients">
     <div class="dark-wrapper">
-      <div class="container inner">
+      <!-- <div class="container inner">
         <h3 class="section-title text-center" style="font-size: 30px">Clients <img src="style/images/element.png" style="margin-bottom: 2%"></h3>
         <div class="divide20"></div><div class="divide20"></div><div class="divide20"></div>
         <div class="row">
           <div class="col-sm-12">
             <figure><img src="style/images/art/bs1.jpg" alt=""></figure>
           </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row --> 
-      </div>
+        </div> 
+      </div> -->
       <div class="row inner joinus" style="padding-bottom: 0px">
         <div class="container inner" style="padding-top: 0px">
           <div class="thin" style="margin: initial;color: white">
